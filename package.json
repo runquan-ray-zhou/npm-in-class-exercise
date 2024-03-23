@@ -1,0 +1,17 @@
+{
+  "name": "intro-to-npm-packages",
+  "version": "1.0.0",
+  "description": "Learning how to use npm packages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "echo 'Now running my server!'"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}

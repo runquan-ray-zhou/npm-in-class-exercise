@@ -1,0 +1,12 @@
+1. Create a folder called cow-greeter
+2. npm init to set up your project
+3. npm install to set up cowsay
+4. Create two files, index.js and cowGreeter.js
+5. In cowGreeter, create a function that takes a name and says hello to the name with cowsay
+6. In cowGreeter, export the function that you created
+7. In index.js import the function from cowGreeter
+8. In index.js, call the cowGreeter function with at least three different names
+9. Add a script to the package.json file called "greet" to run the index.js file
+10. Verify that it works by calling the script.
+
+Bonus points: Add readline to your project and have the cow greet whatever name you provide in the terminal

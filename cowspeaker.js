@@ -1,8 +1,11 @@
-import { say } from "cowsay";
+import cowsay from 'cowsay';
 
-const cowSpeaker = (text) => {
-  const result = say({ text });
-  console.log(result);
+function say(message) {
+  console.log(cowsay.say({
+    text: message,
+    e: "oO",
+    T: "U "
+  }));
 }
 
-export default cowSpeaker;
+export default { say };

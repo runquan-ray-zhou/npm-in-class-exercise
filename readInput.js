@@ -46,6 +46,8 @@ function getCommand() {
 }
 
 function haveTheCowSayIt(command, a, b, result) {
+  const message = `The result of ${command} ${a} and ${b} is ${result}`;
+  cowSpeaker.say(message);
 }
 
 export default getCommand;
